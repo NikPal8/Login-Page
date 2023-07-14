@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page Design</title>
+    <link rel="stylesheet" href="login_page_design.css">
+</head>
+<body>
+
+    <div class="loginContainer">
+
+        <section id="loginTitle">
+            <h1>Login</h1>
+        </section>
+        <!-- Section END -->
+        <section id="emailSection">
+            
+            <label for="email"><span>Email</span></label>
+            <br>
+            <input type="email" id="email"
+            pattern=".@email.com" size="30" required>
+
+        </section>
+        <!-- Section END -->
+        <section id="passwordSection">
+
+            <label for="password"><span>Password</span> </label>
+            <br>
+            <input type="password" id="password" name="password"
+           minlength="8" required>
+
+        </section>
+        <!-- Section END -->
+        <section id="clickableButtons">
+
+            <div class="staySignedInContent">
+                <input type="checkbox" id="staySignedIn" name="staySignedIn" checked>
+                
+                <label for="staySignedIn"><span >Stay Signed In</span></label>
+
+            </div>
+            
+            <button id="loginButton">Sign in</button> 
+            
+            <span>Forgotten Password</span>
+            
+            <span>Create Account</span>
+
+        </section>
+        <!-- Section END -->
+
+
+
+
+    </div>
+    
+
+    <script src="login_page_design.js"></script>
+</body>
+</html>
