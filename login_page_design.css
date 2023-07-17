@@ -33,10 +33,7 @@ body {
     background-color: transparent;
     height: 25%;
     width: 100%;
-<<<<<<< HEAD
-    /* border-bottom: 2px solid grey; */
-=======
->>>>>>> 3fb01f3e52ab292cfaf1e821234ae42829315d8a
+
 }
 
 h1 {
@@ -46,49 +43,43 @@ h1 {
     font-size: 3rem;
     
 }
-<<<<<<< HEAD
+
 /* Section END */
-=======
->>>>>>> 3fb01f3e52ab292cfaf1e821234ae42829315d8a
+
 
 #emailSection {
     background-color: transparent;
     height: 25%;
     width: 100%;
-<<<<<<< HEAD
    
     /* border-bottom: 2px solid grey; */
 }
 
 
 /* Section END */
-=======
-}
 
->>>>>>> 3fb01f3e52ab292cfaf1e821234ae42829315d8a
+
+
+
 #passwordSection {
     background-color: transparent;
     height: 25%;
     width: 100%;
-<<<<<<< HEAD
     
     /* border-bottom: 2px solid grey; */
 }
 /* Section END */
-=======
-}
 
->>>>>>> 3fb01f3e52ab292cfaf1e821234ae42829315d8a
+
+
 #clickableButtons {
     background-color: transparent;
     height: 25%;
     width: 100%;
 }
-<<<<<<< HEAD
-/* Section END */
-=======
 
->>>>>>> 3fb01f3e52ab292cfaf1e821234ae42829315d8a
+
+
 /* Email Folder idea */
 /* .upsidedownTriangle {
     width: 0;
@@ -139,6 +130,4 @@ span {
     font-weight: 900;
 }
 
-=======
-} */
->>>>>>> 3fb01f3e52ab292cfaf1e821234ae42829315d8a
+
