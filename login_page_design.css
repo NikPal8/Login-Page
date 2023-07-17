@@ -51,10 +51,16 @@ h1 {
     background-color: transparent;
     height: 25%;
     width: 100%;
+    display: flex;
+    justify-content: center;
    
     /* border-bottom: 2px solid grey; */
 }
 
+h2 {
+    font-size: 2rem;
+    color: rgb(96, 106, 119);
+}
 
 /* Section END */
 
@@ -65,12 +71,29 @@ h1 {
     background-color: transparent;
     height: 25%;
     width: 100%;
+    display: flex;
+    justify-content: center;
     
     /* border-bottom: 2px solid grey; */
 }
 /* Section END */
 
+#email {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid white;
 
+
+}
+
+#password {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid white;
+    
+}
 
 #clickableButtons {
     background-color: transparent;
@@ -80,14 +103,14 @@ h1 {
 
 
 
-/* Email Folder idea */
+
 /* .upsidedownTriangle {
     width: 0;
         height: 0;
         border-left: 120px solid transparent;
         border-right: 120px solid transparent;
         border-top: 100px solid rgb(255, 255, 255);
-<<<<<<< HEAD
+
 } */
 
 section {
@@ -109,6 +132,35 @@ section:last-child {
     border-bottom: none;
 }
 
+span {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(96, 106, 119);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 900;
+}
+
+#addInput {
+    color: rgb(96, 106, 119);
+    font-size: 1.5rem;
+
+}
+
+input {
+    color: white;
+    font-size: 1rem;
+}
+
+#login {
+    color: rgb(96, 106, 119);
+    font-size: 1.2rem;
+}
+
+#login:hover, login:focus {
+    color: white;
+    background-color: rgb(113, 128, 172);
+    font-size: 1.2rem;
+}
 
 section:last-child span {
     justify-content: space-evenly;
@@ -122,12 +174,5 @@ section:last-child span {
     
 }
 
-span {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(96, 106, 119);
-    text-align: center;
-    font-size: 1rem;
-    font-weight: 900;
-}
 
 
