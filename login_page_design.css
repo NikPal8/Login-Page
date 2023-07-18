@@ -45,27 +45,32 @@ h1 {
 }
 
 /* Section END */
-
-
+/* --------------------------------------- */
+/**** Email Section  Start ****/
 #emailSection {
     background-color: transparent;
     height: 25%;
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content:center;
    
     /* border-bottom: 2px solid grey; */
 }
-
-h2 {
-    font-size: 2rem;
-    color: rgb(96, 106, 119);
-}
-
-/* Section END */
-
+    /* email input box */
+    #email {
+        background-color: transparent;
+        outline: none;
+        border: none;
+        border-bottom: 2px solid white;
 
 
+    }
+
+   
+
+/**** Email Section END ****/
+/* --------------------------------------- */
+/**** Password Section  Start ****/
 
 #passwordSection {
     background-color: transparent;
@@ -76,42 +81,59 @@ h2 {
     
     /* border-bottom: 2px solid grey; */
 }
-/* Section END */
 
-#email {
-    background-color: transparent;
-    outline: none;
-    border: none;
-    border-bottom: 2px solid white;
+    /* password input box */
+    #password {
+        background-color: transparent;
+        outline: none;
+        border: none;
+        border-bottom: 2px solid white;
+        
+    }
 
 
-}
-
-#password {
-    background-color: transparent;
-    outline: none;
-    border: none;
-    border-bottom: 2px solid white;
-    
-}
+/**** Password Section  END ****/
+/* --------------------------------------- */
+/**** Clickable Buttons Section  Start ****/
 
 #clickableButtons {
     background-color: transparent;
     height: 25%;
     width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+    /* Login Button */
+    #login {
+        color: rgb(96, 106, 119);
+        font-size: 1.2rem;
+        border-radius: 5px;
+    }
+
+    #login:hover, login:focus {
+        color: white;
+        background-color: rgb(113, 128, 172);
+        font-size: 1.2rem;
+    }
+    /* Check box container */
+    .staySignedInContent {
+        padding-bottom: 2%;
+    }
+
+   /* Check box */
+    input[type="checkbox"] {
+    accent-color: rgb(130, 119, 206);
+    mix-blend-mode: multiply;
+    height: 1rem;
+    width: 1rem;
 }
 
 
 
-
-/* .upsidedownTriangle {
-    width: 0;
-        height: 0;
-        border-left: 120px solid transparent;
-        border-right: 120px solid transparent;
-        border-top: 100px solid rgb(255, 255, 255);
-
-} */
+    
+/**** Clickable Buttons Section  END ****/
+/* --------------------------------------- */
 
 section {
     border-bottom: 2px solid grey;
@@ -121,15 +143,24 @@ section {
     
 }
 
-#loginButton {
-    font-size: 1rem;
-    height: 2rem;
-    width: auto;
-    margin-top: 2%;
-}
-
 section:last-child {
     border-bottom: none;
+}
+
+section:last-child span {
+    justify-content: space-evenly;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(96, 106, 119);
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 400;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    
+}
+
+section:last-child span:hover {
+    color: lightskyblue;
 }
 
 span {
@@ -139,6 +170,9 @@ span {
     font-size: 1rem;
     font-weight: 900;
 }
+
+
+
 
 #addInput {
     color: rgb(96, 106, 119);
@@ -151,28 +185,11 @@ input {
     font-size: 1rem;
 }
 
-#login {
-    color: rgb(96, 106, 119);
-    font-size: 1.2rem;
-}
+/* .upsidedownTriangle {
+    width: 0;
+        height: 0;
+        border-left: 120px solid transparent;
+        border-right: 120px solid transparent;
+        border-top: 100px solid rgb(255, 255, 255);
 
-#login:hover, login:focus {
-    color: white;
-    background-color: rgb(113, 128, 172);
-    font-size: 1.2rem;
-}
-
-section:last-child span {
-    justify-content: space-evenly;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(96, 106, 119);
-    text-align: center;
-    font-size: 0.8rem;
-    font-weight: 400;
-    padding-top: 2%;
-   
-    
-}
-
-
-
+} */
